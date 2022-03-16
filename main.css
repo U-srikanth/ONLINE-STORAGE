@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page-1 {
+  height: 100vh;
+  width: 100%;
+  padding: 1rem;
+  background-image: url(/images/illustration-1.svg);
+  background-size: 35rem;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  justify-content: left;
+}
+.list ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  cursor: pointer;
+}
+.list ul li {
+  margin: 0 2rem 3rem 2rem;
+  font-family: "Open sans";
+}
+.hero-section h1 {
+  font-family: "Raleway";
+  /* font-weight: 900; */
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.hero-section p {
+  font-family: "Open sans";
+  font-weight: 700;
+  margin: 1rem;
+}
+.email {
+  width: 22%;
+  height: 2rem;
+  border: radius 2px;
+}
+button {
+  width: 15%;
+  height: 2.5rem;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.page-2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/illustration-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  background-color: hsl(240, 75%, 98%);
+  padding: 3rem;
+}
+.card-1 h2 {
+  font-family: "Raleway";
+  font-size: 3rem;
+}
+.card-1 p {
+  font-family: "Open sans";
+  font-weight: 700;
+  padding: 1rem;
+}
+.fylo-link {
+  font-family: "Open sans";
+  font-weight: 700;
+}
+.fylo-link a {
+  color: cornflowerblue;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-left: 1rem;
+}
+.arrow {
+  width: 1rem;
+}
+.testimonials {
+  width: 25%;
+  height: 25%;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  font-family: "Open sans";
+  font-weight: 400;
+}
+.testimonial-img {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+.testimonials blockquote {
+  width: 100%;
+  margin-left: 0;
+}
+.testimonials h5 {
+  margin-left: 2rem;
+}
+.page-3 {
+  width: 100%;
+  height: 100vh;
+}
+
+.top {
+  background-color: hsl(238, 22%, 44%);
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h2 {
+  font-family: "Raleway";
+  font-size: 3rem;
+  color: white;
+  padding: 0.5rem;
+}
+.top p {
+  font-family: "Open sans";
+  color: white;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.input-section {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input {
+  width: 90%;
+  height: 2rem;
+  border: radius 2px;
+  margin-bottom: 1rem;
+}
+.mail {
+  width: 100%;
+  height: 100%;
+}
+.ebutton {
+  margin-left: 4rem;
+
+  width: 50%;
+  height: 2.5rem;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.bottom {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.part-1 {
+  width: 20%;
+  margin: 1rem;
+}
+.logo-btm {
+  margin: 1rem;
+}
+.phone {
+  display: flex;
+  font-family: "Open sans";
+  margin-left: 1rem;
+}
+.phone a {
+  color: white;
+  margin-left: 3rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+.Email {
+  font-family: "Open sans";
+  width: 10%;
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.Email a {
+  color: white;
+  margin-left: 3rem;
+  text-decoration: none;
+}
+.part-2 ul li {
+  margin-left: 2rem;
+  font-family: "Open sans";
+  list-style: none;
+  height: 17%;
+  margin: 1rem;
+  cursor: pointer;
+}
+.part-3 ul li {
+  margin-left: 2rem;
+  font-family: "Open sans";
+  list-style: none;
+  height: 25%;
+  margin: 1rem;
+  cursor: pointer;
+}
+.bottom .part-4 {
+  width: 12%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 414px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .page-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/illustration-1.svg);
+    background-size: 50% 50vh;
+    background-position: top;
+  }
+  .logo-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar img {
+    width: 5rem;
+  }
+  .list ul li {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 1rem 0.5rem 1rem 2rem;
+  }
+  .hero-section h1 {
+    margin-top: 20rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .break {
+    display: none;
+  }
+  .hero-section p {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .user-input {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email {
+    width: 80%;
+    height: 2rem;
+    border: radius 2px;
+    margin-bottom: 1rem;
+  }
+  .user-input button {
+    width: 80%;
+    height: 2.5rem;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .page-2 {
+    width: 100%;
+    height: 140vh;
+    background-image: url(/images/illustration-2.svg);
+    background-position: top;
+    background-size: 50% 50vh;
+  }
+  .card-1 h2 {
+    margin-top: 23rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .fylo-link a {
+    justify-content: center;
+    margin-left: 4rem;
+  }
+  .testimonials {
+    width: 80%;
+    height: 28vh;
+    margin-left: 2rem;
+  }
+  .page-3 {
+    width: 100%;
+    height: 160vh;
+  }
+  .top {
+    width: 100%;
+    height: 50vh;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    flex-direction: column;
+  }
+  .top .trial-info h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .top .trial-info p {
+    text-align: center;
+  }
+  .input-section {
+    width: 100%;
+    height: 25%;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .input {
+    width: 60%;
+  }
+  .ebutton {
+    width: 60%;
+    margin-right: 4rem;
+  }
+  .bottom {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .part-1 {
+    width: 100%;
+    height: 25vh;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .logo-btn {
+    width: 2%;
+    height: 2vh;
+  }
+  .phone {
+    font-size: 10px;
+    width: 100%;
+  }
+  .phone a {
+    font-size: 1.5rem;
+  }
+  .part-2 {
+    width: 100%;
+    height: 25vh;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .part-3 {
+    width: 100%;
+    height: 25vh;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .part-4 {
+    width: 100%;
+    height: 100vh;
+    margin: 1rem;
+  }
+}

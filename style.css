@@ -1,0 +1,486 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300&family=Lato:ital,wght@0,400;1,100&family=Roboto:wght@500&display=swap');
+
+body{
+
+      /* background: linear-gradient(90deg, rgba(14,9,2,1) 0%, rgba(17,65,21,1) 100%);   */
+    
+    /* height: 100vh;
+    width: 100%;
+    margin: 0%;  */
+    
+  }
+.colors{
+  background: linear-gradient(90deg, rgba(14,9,2,1) 0%, rgba(17,65,21,1) 100%);
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  position: absolute;
+   opacity: 80%;
+} 
+.parent{ 
+    /* border: 1.5px solid #258729;  
+     border-radius: 1.406rem; 
+    background-color:  #FFE7DB33 ; */
+    position: absolute;
+    height: 90%;
+    /* color: whitesmoke; */
+    margin-top: 3rem;
+    margin-left: 3.3rem;
+} 
+.nav{
+   display: flex;
+   flex-direction: row;
+}
+
+
+ .logo img{
+  margin-top: 1.7rem;
+  width: 7.5rem;
+}
+
+.navbar ul li {
+list-style: none;
+display: inline-block;
+padding: 0.7rem;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+margin-top: 1rem;
+height:18px;
+
+
+
+}
+.Find-food{
+  color: whitesmoke;
+  opacity: 3;
+}
+.Review{
+  color: #FFFFFF;
+  opacity: 0.4;
+  cursor: pointer;
+
+}
+.About{
+
+  color: #FFFFFF;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.navbar{
+  margin-left: 31rem;
+}
+.cart{
+  margin-top: .8rem;
+  margin-left: 16rem;
+  color: #ffffff;
+  
+}
+::placeholder{
+  color: #FFFFFF;
+}
+.cart-input{
+  margin-top:1.3rem;
+ width: 17rem;
+ border: none;
+ border-radius: 2rem;
+ padding: 0.7rem;
+ color: #FFFFFF;
+ border-radius: 2rem;
+ border:1px solid;
+ border-color: #FFFFFF;
+ background: rgba(196, 196, 196, 0.2);
+opacity: 0.2;
+ 
+}
+.cart-logo img{
+  /* width: 2.5rem; */
+  margin-top: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+} 
+.cart{
+  cursor: pointer;
+}
+.ellipse{
+  /* position: absolute;
+  top: 3px;
+  left: 92.3rem; */
+
+  position: absolute;
+  top: -12px;
+  left: 92.3rem;
+  width: 1.5rem;
+
+}
+.text4{
+  /* position: absolute;
+    top: 6px;
+    left: 92.6rem;
+    width: 0.7rem; */
+
+    position: absolute;
+    top: -7px;
+    left: 92.7rem;
+    width: 9px;
+}
+
+.herosection{
+  display: flex;
+  color: #FFFFFF;
+}
+.part-a{
+  background-image: url(/Images/Background\ /.part-a);
+  width: 50%;
+}
+ .proxy{
+  display: flex;
+  width: 13rem;
+  height: 4rem;
+  cursor: pointer;
+}
+ .proxy p{
+  margin-top: 3rem;
+  color: whitesmoke;
+  font-family: 'Krub', sans-serif;
+  background-color: #FFAC3326; 
+}
+ .proxy img{
+   margin-top: 3rem;
+   
+   width: 1.3rem;
+   height: 1rem; 
+}  
+.slogan h1{
+  color: #FFFFFF;
+  font-family: 'Lato';
+  font-size: 4.555rem;
+  line-height: 120%;
+
+}
+.slogan p{
+  font-family: 'Lato';
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.pricing{
+  display: flex;
+  justify-content:start;
+  font-family: 'Lato';
+  cursor: pointer;
+} 
+
+.pricing .price-1{
+ margin: 1rem;
+}
+.pricing .price-2{
+  margin: 1rem;
+}
+.buymenu{
+  display: flex;
+  justify-content: start;
+} 
+.buynow{
+  margin: 1rem;
+  background: #C42844;
+  border-radius: 28px;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Lato';
+  cursor: pointer;
+  box-shadow: #C42844;
+
+
+
+}
+.seemenu{
+  margin: 1rem;
+  background-color:rgba(255, 255, 255, 0.2);
+  border-radius: 28px;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Lato';
+  cursor: pointer;
+  border: 0.2px  rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+}  
+
+.part-b{
+  margin-left: 8rem;
+  margin-top: -7rem;
+  width: 50%;
+  background: url(/Images/Background\ /.part-b);
+}
+.wing img{
+    width: 53rem;
+    margin-right: 3rem;
+    transform: rotate(7deg);
+}
+
+.footer{
+display: flex;
+position: absolute;
+width: 1389px;
+height: 247px;
+left: 105px;
+top: 660px;
+color: #FFFFFF;
+
+}
+
+/* First card */
+
+
+ .dish-1{
+  position: absolute;
+  width: 261px;
+  height: 130px;
+  left: 53px;
+  top: 58px;
+  
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #999999;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.wing-1{
+  position: absolute;
+left: 120px;
+top: -21px;
+
+}
+.dish-price{
+  position: absolute;
+width: 92px;
+right: 150px;
+top: -2px;
+
+
+}
+.must-p{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+}
+.at-p{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 100%;
+}
+.dollar-p{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+}
+.reviews-1{
+  position: absolute;
+  left: 80px;
+  top: 86px;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  width: 8.2rem;
+  font-family: 'Lato';
+
+}
+.reviews-1 p{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+}
+.star{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 100%;
+}
+.reviews-1 img{
+border-radius: 0.2px;
+}
+.cart-bottom{
+  position: absolute;
+  width: 29px;
+  height: 23px;
+  left: 161px;
+  top: 29px;
+  
+}
+
+/*  Second card */
+
+.dish-2{
+  position: absolute;
+width: 261px;
+height: 130px;
+left: 370px;
+top: 63px;
+
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid #999999;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.wing-2{
+  position: absolute;
+width: 122.54px;
+height: 130.78px;
+left: 109px;
+top: -72px;
+transform: rotate(13deg);
+}
+ 
+.wing-2 img{
+width: 11rem;
+}
+
+.dish-price-2{
+  position: absolute;
+  width: 92px;
+  right: 150px;
+  top: -2px;
+  
+}
+.reviews-2{
+  position: absolute;
+  left: 80px;
+  top: 86px;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  width: 8.2rem;
+  font-family: 'Lato';
+}
+
+.reviews-2 p{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+}
+
+.cart-bottom-2 {
+  position: absolute;
+    width: 29px;
+    height: 23px;
+    left: 156px;
+    top: 29px;
+} 
+/*  Third Card */
+
+ .dish-3{
+  position: absolute;
+width: 261px;
+height: 130px;
+left: 690px;
+top: 63px;
+
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid #999999;
+box-sizing: border-box;
+border-radius: 10px;
+} 
+
+.wing-3{
+  position: absolute;
+width: 122.54px;
+height: 130.78px;
+left: 135px;
+top: -25px;
+}
+.reviews-3{
+  position: absolute;
+  left: 80px;
+  top: 86px;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  width: 9.2rem;
+  font-family: 'Lato';
+} 
+ .dish-price-3 {
+  position: absolute;
+  width: 92px;
+  right: 150px;
+  top: -2px;
+}
+.reviews-3 p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+}
+.cart-bottom-3 {
+  position: absolute;
+  width: 29px;
+  height: 23px;
+  left: 163px;
+  top: 26px;
+} 
+/*  Fourth card */
+
+.dish-4{
+  position: absolute;
+width: 261px;
+height: 130px;
+left: 995px;
+top: 63px;
+
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid #999999;
+box-sizing: border-box;
+border-radius: 10px;
+} 
+.wing-4{
+  position: absolute;
+width: 122.54px;
+height: 130.78px;
+left: 135px;
+top: -25px;
+}
+.reviews-4{
+  position: absolute;
+  left: 80px;
+  top: 86px;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  width: 9.2rem;
+  font-family: 'Lato';
+} 
+.dish-price-4{
+  position: absolute;
+  width: 92px;
+  right: 150px;
+  top: -2px;
+}
+.reviews-4 p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+.cart-bottom-4 {
+  position: absolute;
+  width: 29px;
+  height: 23px;
+  left: 163px;
+  top: 26px;
+} 
